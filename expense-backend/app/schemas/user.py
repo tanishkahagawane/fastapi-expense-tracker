@@ -34,3 +34,12 @@ class UserResponseDto(BaseModel):
     created_at: datetime
 
     model_config = ConfigDict(from_attributes=True)
+
+# authentication schemas
+class LoginRequest(BaseModel):
+    email:str= Field(...,description="Email id of user")
+    password:str=Field(...,description="Password of the user")
+
+class LoginResponse(BaseModel):
+    access_token:str
+    user:UserResponseDto
