@@ -13,4 +13,4 @@ A complete _Expense Tracker API_ built with **FastAPI**, **SQLAlchemy**, and **J
 
 ## References
 
-This project is based on the comprehensive tutorial: [Learn FastAPI 🚀 Build Expense Tracker API with SQLAlchemy & JWT](https://www.youtube.com/watch?v=ADD_YOUR_VIDEO_ID_HERE).
+This project is based on the comprehensive tutorial: [Learn FastAPI 🚀 Build Expense Tracker API with SQLAlchemy & JWT](https://www.youtube.com/watch?v=SdRdpWlsjLQ&t=5707s).

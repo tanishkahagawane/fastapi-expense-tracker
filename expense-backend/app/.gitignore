@@ -1,0 +1,130 @@
+
+# ==========================================
+# Python cache and compiled files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ==========================================
+# Virtual environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ==========================================
+# Database files (SQLite)
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-shm
+*.sqlite-wal
+
+# ==========================================
+# Python packaging and build artifacts
+# ==========================================
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==========================================
+# Testing and coverage
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+test-results/
+
+# ==========================================
+# Type checking and linting
+# ==========================================
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+~*
+
+# ==========================================
+# IDEs and code editors
+# ==========================================
+.vscode/
+.idea/
+*.iml
+
+# Keep shared VS Code project settings if needed
+# !.vscode/extensions.json
+# !.vscode/launch.json
+
+# ==========================================
+# Operating system files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# FastAPI / ASGI development artifacts
+# ==========================================
+.webassets-cache/
+
+# ==========================================
+# Local configuration and exports
+# ==========================================
+instance/
+exports/
+backups/
+*.dump
+*.bak.sql
+
+# ==========================================
+# Local test data and secrets
+# ==========================================
+secrets.json
+credentials.json
